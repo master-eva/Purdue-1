@@ -1,0 +1,237 @@
+[master (root-commit) 82facc2] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 35 files changed, 986 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 Makefile
+ create mode 100755 check-strfunc.sh
+ create mode 100644 cosmos.txt
+ create mode 100755 countwords
+ create mode 100644 countwords.c
+ create mode 100755 countwords.org
+ create mode 100644 countwords.org.out
+ create mode 100644 countwords.out
+ create mode 100644 diff.out
+ create mode 100755 isbalanced
+ create mode 100644 isbalanced.c
+ create mode 100755 isbalanced.org
+ create mode 100644 isbalanced.org.out
+ create mode 100644 isbalanced.out
+ create mode 100644 mystring.c
+ create mode 100644 mystring.o
+ create mode 100644 none
+ create mode 100644 slist.c
+ create mode 100644 slist.h
+ create mode 100644 test.txt
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 test_slist
+ create mode 100644 test_slist.c
+ create mode 100755 test_slist.org
+ create mode 100644 test_slist.org.out
+ create mode 100644 test_slist.out
+ create mode 100755 testall
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master 704d3ec] 0 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 52 insertions(+), 1 deletion(-)
+[master 1234496] 5 of 100
+ 10 files changed, 28 insertions(+), 4 deletions(-)
+ rewrite mystring.o (83%)
+[master ca4673e] 5 of 100
+ 6 files changed, 17 insertions(+), 4 deletions(-)
+ rewrite mystring.o (76%)
+[master d81057c] 5 of 100
+ 6 files changed, 7 insertions(+), 2 deletions(-)
+ rewrite mystring.o (73%)
+[master 3b2d027] 5 of 100
+ 4 files changed, 7 insertions(+), 2 deletions(-)
+[master 9a284a4] 10 of 100
+ 7 files changed, 26 insertions(+), 6 deletions(-)
+ rewrite mystring.o (81%)
+[master d5843e7] 10 of 100
+ 6 files changed, 7 insertions(+), 5 deletions(-)
+ rewrite mystring.o (68%)
+[master 9381a38] 15 of 100
+ 9 files changed, 27 insertions(+), 5 deletions(-)
+ rewrite mystring.o (68%)
+ rewrite test_slist (65%)
+[master 85bafc0] 15 of 100
+ 5 files changed, 20 insertions(+), 2 deletions(-)
+[master 76e02e1] 15 of 100
+ 5 files changed, 6 insertions(+), 1 deletion(-)
+[master 5ec616d] 15 of 100
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master b34793f] 20 of 100
+ 6 files changed, 8 insertions(+), 4 deletions(-)
+[master 57df0e1] 20 of 100
+ 8 files changed, 24 insertions(+), 2 deletions(-)
+ rewrite mystring.o (68%)
+[master 454d2df] 20 of 100
+ 5 files changed, 11 insertions(+), 13 deletions(-)
+[master c8bd181] 20 of 100
+ 6 files changed, 33 insertions(+), 1 deletion(-)
+[master a578df4] 20 of 100
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master 59e2c0e] 20 of 100
+ 6 files changed, 15 insertions(+), 10 deletions(-)
+ rewrite mystring.o (68%)
+[master 1e8a2c1] 25 of 100
+ 7 files changed, 7 insertions(+), 3 deletions(-)
+ rewrite mystring.o (65%)
+[master 4a01564] 25 of 100
+ 6 files changed, 17 insertions(+), 28 deletions(-)
+[master ba65973] 35 of 100
+ 7 files changed, 42 insertions(+), 11 deletions(-)
+[master adcadac] 35 of 100
+ 6 files changed, 36 insertions(+), 4 deletions(-)
+ rewrite countwords (81%)
+[master eff6978] 35 of 100
+ 8 files changed, 49 insertions(+), 15 deletions(-)
+ rewrite isbalanced (75%)
+ rewrite isbalanced.c (74%)
+[master 7e84da8] 35 of 100
+ 6 files changed, 16 insertions(+), 12 deletions(-)
+[master c22bec0] 49 of 100
+ 7 files changed, 15 insertions(+), 11 deletions(-)
+[master 12097ac] 49 of 100
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+[master b14c1ef] 49 of 100
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+[master 865dd5e] 60 of 100
+ 7 files changed, 12 insertions(+), 8 deletions(-)
+[master 7f8ec3c] 65 of 100
+ 6 files changed, 12 insertions(+), 3 deletions(-)
+[master fb2696d] 65 of 100
+ 7 files changed, 37 insertions(+), 5 deletions(-)
+ rewrite mystring.o (79%)
+ rewrite test_mystring (69%)
+[master 2e770c2] 65 of 100
+ 7 files changed, 11 insertions(+), 29 deletions(-)
+ rewrite mystring.o (73%)
+ rewrite test_mystring (67%)
+[master 840b237] 65 of 100
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+[master bef021c] 65 of 140
+ 20 files changed, 523 insertions(+), 154 deletions(-)
+ create mode 100644 bits.c
+ create mode 100644 bits.h
+ rewrite diff.out (100%)
+ create mode 100644 mysort.c
+ create mode 100644 mysort.h
+ create mode 100755 test_bits
+ create mode 100644 test_bits.c
+ create mode 100755 test_bits.org
+ create mode 100644 test_bits.org.out
+ create mode 100644 test_bits.out
+ create mode 100755 test_mysort
+ create mode 100644 test_mysort.c
+ create mode 100755 test_mysort.org
+ create mode 100644 test_mysort.org.out
+ create mode 100644 test_mysort.out
+[master 74eb65a] 65 of 140
+ 7 files changed, 76 insertions(+), 15 deletions(-)
+ rewrite countwords (90%)
+[master dbb5948] 90 of 140
+ 9 files changed, 188 insertions(+), 12 deletions(-)
+ rewrite countwords (78%)
+[master 75f4351] 90 of 140
+ 6 files changed, 11 insertions(+), 6 deletions(-)
+[master fc099c5] 90 of 140
+ 6 files changed, 10 insertions(+), 6 deletions(-)
+[master 2a50ece] 90 of 140
+ 5 files changed, 9 insertions(+), 5 deletions(-)
+[master 0e3e418] 90 of 140
+ 5 files changed, 9 insertions(+), 5 deletions(-)
+[master d296a82] 90 of 140
+ 9 files changed, 29 insertions(+), 24 deletions(-)
+ rewrite mystring.o (67%)
+ rewrite test_mystring (63%)
+[master c0d661d] 90 of 140
+ 5 files changed, 11 insertions(+), 5 deletions(-)
+[master 920750e] 100 of 140
+ 10 files changed, 43 insertions(+), 10 deletions(-)
+ rewrite mystring.o (66%)
+[master c42e499] 100 of 140
+ 6 files changed, 21 insertions(+), 8 deletions(-)
+[master ae9b76c] 100 of 140
+ 9 files changed, 11 insertions(+), 16 deletions(-)
+ create mode 100755 bits
+[master f4fa952] 100 of 140
+ 8 files changed, 29 insertions(+), 9 deletions(-)
+ rewrite bits (69%)
+ rewrite test_bits (69%)
+[master e6a0ca5] 104 of 140
+ 8 files changed, 18 insertions(+), 21 deletions(-)
+ rewrite test_bits (66%)
+[master 3667349] 108 of 140
+ 8 files changed, 15 insertions(+), 6 deletions(-)
+[master 1244100] 112 of 140
+ 8 files changed, 11 insertions(+), 8 deletions(-)
+[master 7bf7050] 112 of 140
+ 7 files changed, 17 insertions(+), 8 deletions(-)
+[master b2ec3ee] 112 of 140
+ 7 files changed, 10 insertions(+), 6 deletions(-)
+[master 4209b4b] 112 of 140
+ 7 files changed, 12 insertions(+), 8 deletions(-)
+[master dab5c21] 116 of 140
+ 8 files changed, 18 insertions(+), 15 deletions(-)
+[master be94a00] 116 of 140
+ 7 files changed, 28 insertions(+), 6 deletions(-)
+[master 7f2b967] 116 of 140
+ 7 files changed, 14 insertions(+), 6 deletions(-)
+[master 78010a4] 116 of 140
+ 7 files changed, 13 insertions(+), 8 deletions(-)
+[master 3f0acab] 120 of 140
+ 8 files changed, 9 insertions(+), 13 deletions(-)
+[master b7d963c] 120 of 140
+ 4 files changed, 5 insertions(+), 4 deletions(-)
+[master 29e6acc] 120 of 140
+ 5 files changed, 18 insertions(+), 12 deletions(-)
+[master faec434] 120 of 140
+ 4 files changed, 21 insertions(+), 2 deletions(-)
+[master 827dc1c] 120 of 140
+ 7 files changed, 20 insertions(+), 16 deletions(-)
+ rewrite test_mysort (71%)
+[master 3e118aa] 120 of 140
+ 4 files changed, 8 insertions(+), 3 deletions(-)
+[master 8b35c70] 140 of 140
+ 6 files changed, 17 insertions(+), 12 deletions(-)
+[master ae17cca] 140 of 140
+ 5 files changed, 8 insertions(+), 4 deletions(-)
+[master 1c7a9f3] 140 of 140
+ 5 files changed, 12 insertions(+), 8 deletions(-)
+[master 0e4074d] 140 of 140
+ 5 files changed, 8 insertions(+), 4 deletions(-)
+[master 351b795] 140 of 140
+ 4 files changed, 7 insertions(+), 3 deletions(-)
+[master 25c4c1a] 140 of 140
+ 5 files changed, 7 insertions(+), 5 deletions(-)
+[master ea4980c] 140 of 140
+ 3 files changed, 5 insertions(+), 1 deletion(-)
