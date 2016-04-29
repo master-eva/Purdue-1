@@ -1,0 +1,21 @@
+Name: He Huang
+Login: huang654
+
+
+=== pwcheck.sh ===
+USAGE:
+./pwcheck.sh passwordfile
+
+Give a score to a password given by user in the first line of a file.
+The score is based on the length and strength of the password.
+
+
+===  monitor.sh ===
+USAGE:
+./monitor.sh {process id} -cpu {cpu usage percentage} {maximum reports} {time interval}
+OR
+./monitor.sh {process id} -cpu {cpu usage percentage} -mem {maximum memory in kB} {maximum reports} {time interval}
+
+Generate a report every given time interval which contains the information of the process name CPU usage and Memory usage, and save that file in a report directory.
+If the maximun memory is given, the program will report both cpu and mem usage, otherwise, it will only report the cpu usage.
+If the process use more than given cpu usage or mem usage, it will send report to the user that run this program.

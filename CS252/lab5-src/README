@@ -1,0 +1,12 @@
+me: He Huang
+Login: huang654
+
+CS 252 - Lab05
+
+Features:
+- Deal with HTTP protocol.
+- Implemented process mod, thread mode and pool mode.
+
+Extra features:
+- Show directory contents.
+- Some part of cgi.

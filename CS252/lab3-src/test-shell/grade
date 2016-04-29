@@ -1,0 +1,18 @@
+grade3=0
+grade3max=5
+echo "--- Background and Zombie Processes --- ($grade3max pts)"
+#./test9 && grade3=`expr $grade3 "+" 3`
+./test10 && grade3=`expr $grade3 "+" 2`
+
+
+grade4max=10
+echo "--- Environment ----- ($grade4max pts)"
+#./test11 && grade4=`expr $grade4 "+" 1`
+#./test12 && grade4=`expr $grade4 "+" 2`
+#./test13 && grade4=`expr $grade4 "+" 2`
+#./test14 && grade4=`expr $grade4 "+" 2`
+./test15 && grade4=`expr $grade4 "+" 2`
+#./test16 && grade4=`expr $grade4 "+" 1`
+
+grade5=0
+grade5max=2

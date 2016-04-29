@@ -1,0 +1,18 @@
+Name: He Huang
+Login: huang654
+
+CS 252 - Lab04
+
+PART 1:
+1) In thr1 program, we first create two threads to do the infinite loops of 'A' and 'B', and then the program reach the infinite loop of print character 'C', so the program give 'A', 'B' and 'C' out randomly since the 3 loops are working together.
+2) In thr2 program, we first create a infinite loop for print 'C', and the program will never reach the part of creating threads, so the program always print the character 'C'.
+
+PART 3:
+										|	System Time	|	User Time	|	Real Time
+----------------------------------------------------------------------------------------
+pthread_mutex (count)	 	 	 		|		0.77	|		1.05	|		1.17
+spin_lock (count_spin with thr_yield)	|	  	0.12	|		0.36	|		0.28
+spin_lock (count_spin without thr_yield)|	 	0.00	|		0.89	|		0.49
+
+1. The difference between user time with and without yield is because the pthread_yield() function made the thread gives up the CPU, and another process can run. Time spending in spin_lock without yield is waiting the another process to be finished.
+2. The mutex lock get process into suspend status, and it has a longer overhead than the spinlock. So system time using by mutex is longer than spinlock.

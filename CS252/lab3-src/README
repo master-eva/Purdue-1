@@ -1,0 +1,12 @@
+Author: Huang, He
+Login: huang654
+
+Features:
+- IO redirections
+- Pipes
+- Wildcards
+- Quotes and Escaping
+- Environment
+- Edit mode
+- History
+- Subshells
